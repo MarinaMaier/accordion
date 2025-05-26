@@ -10,9 +10,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroui/accordion": "^2.2.16",
+    "@heroui/react": "^2.7.8",
+    "@heroui/system": "^2.4.15",
+    "@heroui/theme": "^2.4.15",
+    "framer-motion": "^12.14.0",
     "next": "15.1.8",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
