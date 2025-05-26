@@ -18,3 +18,12 @@ export type ServicesCost = {
   isCostDecree: boolean;
   prices: Vehicles[];
 };
+
+export type VehicleItemProps = {
+  vehicle: Vehicles;
+  isCostDecree: boolean;
+};
+
+export type AccordionProps = {
+  data: ServicesCost;
+};

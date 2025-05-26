@@ -1,4 +1,4 @@
-// used server-side rendering
+// i used server-side rendering
 import { fetchVehiclesData } from "@/app/lib/utils";
 import { type Vehicles } from "@/app/lib/definitions";
 
