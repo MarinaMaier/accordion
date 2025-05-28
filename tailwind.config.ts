@@ -14,7 +14,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "yellow-brand": "#FFD12F",
+        "white-brand": "#ffffff",
       },
+    },
+    screen: {
+      mobile: { max: "479px" },
+      tablet: { min: "480px", max: "1279px" },
+      desktop: "1280px",
     },
   },
   darkMode: "class",
