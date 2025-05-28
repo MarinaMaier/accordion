@@ -5,12 +5,16 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --yellowText: #ffd12f;
+  --whiteText: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --yellowText: #ffd12f;
+    --whiteText: #ffffff;
   }
 }
 
@@ -22,4 +26,11 @@ body {
 .dark {
   --background: #0a0a0a;
   --foreground: #ffffff;
+  --yellowText: #ffd12f;
+  --whiteText: #ffffff;
+}
+
+[data-collection] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
