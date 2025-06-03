@@ -59,7 +59,7 @@ export default function AccordionTable({ data }: AccordionProps) {
               trigger: "px-6 py-4",
               content: "px-4 py-2",
               title:
-                "font-family font-medium text-[16px] leading-[30px] lg:text-[20px] text-[var(--whiteText)] data-[open=true]:text-[var(--yellowText)] transition-colors duration-300 m-2",
+                "font-family font-medium text-[16px] leading-[30px] desktop:text-[20px] text-[var(--whiteText)] data-[open=true]:text-[var(--yellowText)] transition-colors duration-300 m-2",
             }}
             indicator={({ isOpen }) => <ChevronIcon isOpen={!isOpen} />}
           >
