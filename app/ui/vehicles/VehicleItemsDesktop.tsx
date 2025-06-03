@@ -7,7 +7,7 @@ export default function VehicleItemDesktop({
 }: VehicleItemProps) {
   return (
     <section className="desktop:block mobile:hidden tablet:hidden overflow-hidden mb-3 rounded-xl">
-      <table className="w-full border-collapse family-font text-sm">
+      <table className="w-full border-collapse family-font">
         <thead className="bg-[var(--yellowText)] text-black">
           <tr>
             <th className="w-[834px] h-[72px] pt-5 pr-4 pb-5 pl-4 font-normal text-[16px] leading-[100%] text-center align-middle px-4 py-3 rounded-tl-xl">
