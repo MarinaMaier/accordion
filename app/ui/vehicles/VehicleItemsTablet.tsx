@@ -1,13 +1,13 @@
 import Image from "next/image";
-import { VehicleItemProps } from "@/app/lib/definitions";
+import { VehicleItemProps } from "@/app/lib/types";
 
 export default function VehicleItemTablet({
   vehicle,
   isCostDecree,
 }: VehicleItemProps) {
   return (
-    <section className="tablet:block mobile:hidden desktop:hidden overflow-hidden">
-      <p className="bg-[var(--yellowText)] rounded-t-xl text-black font-sans font-normal text-base leading-none flex items-center justify-center text-center mx-auto pt-5 pr-4 pb-5 pl-4">
+    <section className="tablet:block mobile:hidden desktop:hidden overflow-hidden mb-3">
+      <p className="bg-[var(--yellowText)] rounded-t-xl text-black font-family font-semibold text-[14px] leading-none flex items-center justify-center text-center mx-auto pt-5 pr-4 pb-5 pl-4">
         Цена предприятия по типу транспортного средства
       </p>
 
@@ -23,12 +23,12 @@ export default function VehicleItemTablet({
               width={37.71}
               height={19.81}
             />
-            <p className="text-white text-sm leading-snug">
+            <p className="font-family text-white text-[14px] leading-[100%] align-middle">
               {category.description}
             </p>
           </div>
 
-          <div className="flex flex-row text-xs text-[#EFEFEF] gap-3 pt-2">
+          <div className="flex flex-row font-family text-[14px] leading-[100%] align-middle text-[#EFEFEF] gap-7 pt-3">
             <div className="flex flex-col justify-between">
               <span className="text-[#8E8E8E]">Категория ТС</span>
               <span className="text-white pt-2">{category.title}</span>

@@ -10,6 +10,11 @@ export default {
     "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      mobile: { max: "479px" },
+      tablet: { min: "480px", max: "1279px" },
+      desktop: "1280px",
+    },
     extend: {
       colors: {
         background: "var(--background)",
@@ -17,11 +22,6 @@ export default {
         "yellow-brand": "#FFD12F",
         "white-brand": "#ffffff",
       },
-    },
-    screen: {
-      mobile: { max: "479px" },
-      tablet: { min: "480px", max: "1279px" },
-      desktop: "1280px",
     },
   },
   darkMode: "class",
